@@ -1,0 +1,58 @@
+*{
+    /*os elementos já tem um padding e margin pré-establecido, mas distintos. POr isso é necessário definir*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-style: oblique;
+    font-family: ;
+}
+
+ul{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+}
+                                     
+a{
+    /*link sem decoração*/
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffff;
+}
+
+header{
+    display: flex; /*permite que seja um bloco só*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 15px;
+}
+
+header ul li a{
+    color: white;
+}
+
+#topo{
+    position:relative;
+    width: 1366px;
+    height: 77px;
+    left: 0px;
+    top: -2px;
+
+    background: #FB1C1C;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
