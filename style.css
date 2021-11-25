@@ -5,7 +5,8 @@
     box-sizing: border-box;
     color: #000000;
     font-style: oblique;
-    font-family: ;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
 }
 
 ul{
@@ -55,4 +56,48 @@ header ul li a{
 img{
     width: 150px;
     height: auto;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+    border-width: 100px;
+}
+
+.form input{
+    width: 50%;
+}
+
+/*categorias*/
+
+.category ul{
+    margin-top: 3%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/*cards*/
+
+.card{
+    width: 278px;
+    height: 172px;
+    background:#FB1C1C; 
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 2%;
+    border-radius: 20px;
+}
+
+i{
+    top: 110%;
+    color: white;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(20, 4, 4);
+    margin-top: 5%;
 }
