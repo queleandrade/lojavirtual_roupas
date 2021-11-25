@@ -191,14 +191,13 @@ button{
     color: #000000;
     text-align: center;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%
 }
 
 .sobreEmpresa img{
     display: center;
     width: 40%;
     height: 20%;
-    margin-left: 30%;
 }
 
 /*Contato*/
@@ -214,7 +213,6 @@ h2{
 
 .contato button{
     width: 20%;
-    margin-left: 42%;
     margin-top: 3%;
 }
 
@@ -253,6 +251,10 @@ section{
     .contanier img{
         margin-left: 0%;
     }
+
+    .sobreEmpresa img{
+        margin-left: 0%;
+    }
 }
 
 @media (max-width: 1024px){
@@ -278,6 +280,10 @@ section{
     }
 
     .contanier img{
+        margin-left: 0%;
+    }
+
+    .sobreEmpresa img{
         margin-left: 0%;
     }
 }
