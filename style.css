@@ -167,3 +167,23 @@ button{
 .compras button{
     margin-left: 35%;
 }
+
+/*quem somos*/
+
+.sobreEmpresa{
+    display: center;
+}
+
+.sobreEmpresa p{
+    color: #000000;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sobreEmpresa img{
+    display: center;
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+}
