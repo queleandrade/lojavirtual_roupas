@@ -12,12 +12,13 @@
 ul{
     list-style: none;
     font-size: 30px;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
                                      
 a{
     /*link sem decoração*/
     text-decoration: none;
+    margin-top: 20%;
 }
 
 body{
@@ -25,39 +26,53 @@ body{
 }
 
 header{
-    display: flex; /*permite que seja um bloco só*/
+    /*display: flex; /*permite que seja um bloco só*/
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    
 }
 
 header ul{
-    display: flex;
+    width: 50%;
+    height: 100px;
+    float: right;
+    margin-right: 10%;
+    padding: 20px;
 }
 
 header ul li{
-    padding: 15px;
+    margin: 5px;
+    float: right;
+    display: inline-block;
 }
 
 header ul li a{
     color: white;
+    font-size: 14pt;
 }
 
 #topo{
-    position:relative;
+    /* position:relative; */
     width: 100%;
-    height: 77px;
+    height: 100%;
+    /* height: 77px;
     left: 0px;
-    top: -2px;
-
+    top: -2px; */
+    display: inline-block;
     background: #FB1C1C;
+   
+    vertical-align: middle;
+   
 }
 
 
 img{
-    width: 150px;
+    width: 100px;
     height: auto;
-    margin-left: 20%;
+}
+
+.contanier img{
+    width: 150px;
 }
 
 /*categorias*/
@@ -82,8 +97,7 @@ img{
 
 i{
     top: 110%;
-    color: white;
-    margin-left: 35%;
+    color: white; 
     margin-top: 10%;
 }
 
@@ -112,7 +126,7 @@ h4 {
 }
 
 p{
-    margin-top: 10%;
+    margin-top: 30%;
     text-align: center;
     color: white;
 }
@@ -123,7 +137,6 @@ p{
 
 button{
     margin-top: 10%;
-    margin-left: 20%;
     width: 60%;
     height: 30px;
     border-radius: 7px;
@@ -203,4 +216,68 @@ h2{
     width: 20%;
     margin-left: 42%;
     margin-top: 3%;
+}
+
+section{
+    margin: auto; 
+    text-align: center; 
+}
+
+@media (max-width: 428px) {
+    header ul li a{
+        font-size: 10pt;
+    }
+
+    .category ul li a{
+        font-size: 15pt;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    header ul{
+       padding-right: 15%;
+       width: 80%;
+       height: 40%;
+    }
+
+    img{
+        margin-left: 35%;
+    }
+
+    p{
+        margin-top: 10%;
+    }
+
+    .contanier img{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 1024px){
+    .category ul li a{
+        font-size: 23px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    header ul{
+        padding-right: 15%;
+        width: 75%;
+    }
+
+    img{
+        margin-left: 40%;
+    }
+
+    p{
+        margin-top: 10%;
+    }
+
+    .contanier img{
+        margin-left: 0%;
+    }
 }
