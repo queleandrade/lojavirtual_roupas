@@ -1,5 +1,7 @@
 # lojavirtual_roupas
 
+Primeiro desafio do curso FullStack da Gama Academy, maiores descrições abaixo:
+
 O DESAFIO
 
 
